@@ -9,9 +9,9 @@ const { width } = Dimensions.get('window');
 const AnimatedSvg = Animated.createAnimatedComponent(Svg);
 const tabs = [
   { name: 'grid' },
-  { name: 'list' },
+  // { name: 'list' },
   { name: 'refresh-cw' },
-  { name: 'box' },
+  // { name: 'box' },
   { name: 'user' },
 ];
 const tabWidth = width / tabs.length;
